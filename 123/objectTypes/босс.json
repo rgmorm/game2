@@ -1,0 +1,48 @@
+{
+	"name": "босс",
+	"plugin-id": "Sprite",
+	"sid": 163883371230366,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Платформер",
+			"sid": 702690951391644
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Синусоид",
+			"sid": 843481707556873
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 144,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 264262,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 841049596848905,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

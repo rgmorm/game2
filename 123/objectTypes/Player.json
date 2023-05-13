@@ -1,0 +1,65 @@
+{
+	"name": "Player",
+	"plugin-id": "Sprite",
+	"sid": 164929434096859,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Платформер",
+			"sid": 156647932753055
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "СледитьЗа",
+			"sid": 792054637537516
+		},
+		{
+			"behaviorId": "Flash",
+			"name": "Мигание",
+			"sid": 618398381320931
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 330,
+						"height": 350,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4816387,
+						"collisionPoly": {
+							"points": [
+								0.16060606060606056,
+								0.09714285714285723,
+								0.6818181818181811,
+								0.12571428571428583,
+								0.6181818181818182,
+								0.9942857142857142,
+								0.22121212121212114,
+								0.9942857142857142
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 811802616375257,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
